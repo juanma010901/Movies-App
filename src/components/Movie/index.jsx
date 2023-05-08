@@ -11,7 +11,7 @@ function Movie( {movieData} ) {
         <div className='card'>
             {
                 movieData.imageUrl === null ? (
-                    <img src='../../../public/no_image.png' alt="No image available" />
+                    <img src='../../public/no_image.png' alt="No image available" />
                 ) : (
                     <img src={`${movieImage}${movieData.imageUrl}`} alt={movieData.name} />
                 )
