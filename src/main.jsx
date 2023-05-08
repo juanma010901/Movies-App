@@ -10,7 +10,7 @@ import SearchMovies from './views/SearchMovies'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Movies-App",
     element: <PopularMovies />,
   },
   {
