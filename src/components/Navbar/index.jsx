@@ -16,7 +16,7 @@ function Navbar() {
     return (
         <>
             <nav className='navbar'>
-                <a href="/Movies-App"><img src="../../logo.svg" alt="Movie-App" id="icon"/></a>
+                <a href="/Movies-App"><img src="../../assets/logo.svg" alt="Movie-App" id="icon"/></a>
                 <h2 id="title">Movie App</h2>
                 <div className="buscar">
                     <button className="boton-nav" id="cancelar" type="submit">
