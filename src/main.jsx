@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     element: <PopularMovies />,
   },
   {
-    path: "/buscar/:name",
+    path: "/Movies-App/buscar/:name",
     element: <SearchMovies />,
   },
 ]);
